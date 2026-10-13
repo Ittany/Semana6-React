@@ -1,0 +1,102 @@
+.contenedor-ejercicio2 {
+  width: 100%;
+  padding-right: 6rem;
+  padding-left: 6rem;
+
+}
+
+/*  Componente 1 (Azul)*/
+.comp-1 {
+  color: black;
+  background-color: #5B9BD5;
+  border: 2px solid #333;
+  padding: 10px;
+  min-height: 300px;
+}
+
+.comp-1 > h4 {
+  text-align: left;
+  font-size: 18px;
+}
+
+/*  Componente 2 (Naranja)  */
+.comp-2 {
+  color: black;
+  background-color: #FFC000;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-top: 10px; 
+  margin-left: 3rem; 
+  min-height: 250px;
+}
+
+.comp-2 > h4 {
+  margin: 0 0 5px 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Componente 3 (Verde) */
+.comp-3 {
+  color: black;
+  background-color: #548235;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-top: 20px; 
+  margin-left: 3rem; 
+  min-height: 200px;
+}
+
+.comp-3 > h4 {
+  margin: 0 0 5px 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* ===== Componente 4 ===== */
+.comp-4 {
+  background-color: #FFFF00;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-top: 20px; 
+  margin-left: 3rem; 
+  text-align: center;
+}
+
+.comp-4 > h4 {
+  margin: 0 0 5px 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+.comp-4 > p {
+  margin: 15px 0;
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+
+/* ===== Card con los datos del objeto ===== */
+.card {
+  background-color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 600px) {
+  .comp-2,
+  .comp-3,
+  .comp-4 {
+    margin-left: 15px;
+  }
+}

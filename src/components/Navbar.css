@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #000000;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(202, 85, 173, 0.2);
+}
+
+.navbar-logo {
+  color: #faeff9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  background-color: #ff84c4;
+}
+
+/* Clase cuando ruta está activa */
+.navbar-links a.active {
+  background-color: #ff1b91;
+  color: #ececec;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
